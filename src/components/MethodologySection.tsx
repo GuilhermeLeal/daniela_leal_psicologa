@@ -8,8 +8,7 @@ const MethodologySection = () => {
           {/* Left Column - Content */}
           <div className="space-y-8 order-2 lg:order-1">
             <div>
-              <h2 className="section-title text-mocha">NOSSA</h2>
-              <p className="section-title-accent italic">METODOLOGIA</p>
+              <h2 className="section-title text-mocha">METODOLOGIA</h2>
             </div>
 
             <div className="space-y-6 text-foreground">
@@ -42,12 +41,6 @@ const MethodologySection = () => {
               </p>
             </div>
 
-            <p className="leading-relaxed text-foreground">
-              <strong className="text-mocha">Interessado em começar?</strong>{" "}
-              Vamos conversar sobre como podemos reduzir seus sintomas e tornar
-              o dia a dia mais manejável. Agende uma avaliação inicial para
-              alinharmos objetivos e próximos passos.
-            </p>
           </div>
 
           {/* Right Column - Image */}
