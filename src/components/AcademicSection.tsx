@@ -5,22 +5,17 @@ const AcademicSection = () => {
     {
       icon: GraduationCap,
       title: "Graduação em Psicologia",
-      description: "Bacharel em Psicologia com formação completa em avaliação, diagnóstico e intervenção psicológica.",
+      description: "Bacharel em Psicologia.",
     },
     {
       icon: Award,
-      title: "Especialização em TCC",
-      description: "Especializanda em Terapia Cognitivo-Comportamental, abordagem baseada em evidências científicas.",
+      title: "Especializações",
+      description: "Especializada em Terapia Cognitivo-Comportamental (TCC) com práticas baseadas em evidências e psicopatologia.",
     },
     {
       icon: BookOpen,
       title: "Formação Continuada",
-      description: "Atualização constante através de cursos, congressos e supervisões em saúde mental.",
-    },
-    {
-      icon: BadgeCheck,
-      title: "CRP Ativo",
-      description: "Profissional devidamente registrada no Conselho Regional de Psicologia.",
+      description: "Atualização constante através de supervisões clínicas, cursos e congressos.",
     },
   ];
 
@@ -32,7 +27,7 @@ const AcademicSection = () => {
           <p className="section-title-accent italic text-cream/80">ACADÊMICA</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {achievements.map((item, index) => (
             <div
               key={index}

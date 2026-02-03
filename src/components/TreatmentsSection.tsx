@@ -1,10 +1,10 @@
-import { Frown, Brain, Users, HeartCrack } from "lucide-react";
+import { Frown, Brain, Users, Moon, Gamepad2 } from "lucide-react";
 
 const TreatmentsSection = () => {
   const treatments = [
     {
       icon: Frown,
-      title: "Transtorno Bipolar, depressão e ansiedade",
+      title: "Transtornos de Humor / Ansiedade e depressão",
     },
     {
       icon: Brain,
@@ -15,8 +15,16 @@ const TreatmentsSection = () => {
       title: "Fobia Social",
     },
     {
-      icon: HeartCrack,
-      title: "Transtorno de pânico e de humor",
+      icon: Moon,
+      title: "Transtornos do sono",
+    },
+    {
+      icon: Gamepad2,
+      title: "Transtornos do jogo (aposta, jogos)",
+    },
+    {
+      icon: Brain,
+      title: "TDAH",
     },
   ];
 
@@ -28,7 +36,7 @@ const TreatmentsSection = () => {
           <p className="section-title-accent italic">TRATAMENTOS</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {treatments.map((treatment, index) => (
             <div key={index} className="card-treatment">
               <div className="card-treatment-icon">

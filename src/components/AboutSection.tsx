@@ -21,18 +21,13 @@ const AboutSection = () => {
           </div>
 
           {/* Right Column - Text */}
-          <div className="space-y-8 lg:pt-24">
+          <div className="flex items-center">
             <p className="text-lg leading-relaxed text-foreground">
               Sou psicóloga, especializanda em{" "}
               <strong>Terapia Cognitivo-Comportamental (TCC)</strong> com
               práticas baseadas em evidências atuando em diversos transtornos
               mentais.
             </p>
-
-            <div className="flex gap-6">
-              
-              
-            </div>
           </div>
         </div>
       </div>

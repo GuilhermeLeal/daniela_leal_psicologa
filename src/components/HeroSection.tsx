@@ -10,20 +10,16 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative section-container pt-24">
         <div className="max-w-xl">
-          <p className="font-heading text-lg tracking-[0.2em] text-cream/90 mb-2 bg-inherit font-bold">DANIELA C C LEAL</p>
-          <p className="text-sm tracking-wider text-cream/80 mb-8 font-bold">Psicóloga Clínica</p>
+          <p className="font-heading text-3xl md:text-4xl tracking-[0.2em] text-cream mb-2 font-bold drop-shadow-lg">DANIELA C C LEAL</p>
+          <p className="text-lg md:text-xl tracking-wider text-cream mb-10 font-semibold drop-shadow-md">Psicóloga Clínica</p>
 
-          <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-cream leading-tight mb-8">
+          <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl text-cream leading-tight">
             Cuidar da mente
             <br />
             para viver em
             <br />
             equilíbrio.
           </h1>
-
-          <a href="#sobre" className="inline-block border border-cream text-cream px-8 py-3 text-sm tracking-wider hover:bg-cream hover:text-mocha transition-all duration-300">
-            SAIBA MAIS
-          </a>
         </div>
       </div>
     </section>;

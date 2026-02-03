@@ -4,29 +4,22 @@ const EssenceSection = () => {
   return (
     <section className="py-20 lg:py-32 bg-cream-dark">
       <div className="section-container">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
-          {/* Left Column - Title & Image */}
-          <div className="space-y-8">
-            <div>
-              <h2 className="section-title text-mocha">NOSSA</h2>
-              <p className="section-title-accent italic">ESSÊNCIA</p>
-            </div>
-
-            <div className="relative max-w-md mx-auto lg:mx-0">
-              <div className="image-rounded aspect-square shadow-2xl overflow-hidden">
-                <img
-                  src={profileEssence}
-                  alt="Daniela Leal em seu consultório"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          {/* Left Column - Image */}
+          <div className="relative max-w-md mx-auto lg:mx-0">
+            <div className="image-rounded aspect-square shadow-2xl overflow-hidden">
+              <img
+                src={profileEssence}
+                alt="Daniela Leal em seu consultório"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
           {/* Right Column - Mission & Vision */}
-          <div className="space-y-12 lg:pt-24">
+          <div className="space-y-12">
             <div className="space-y-4">
-              <h3 className="font-heading text-2xl text-mocha border-b border-mocha/30 pb-2 inline-block">
+              <h3 className="font-heading text-4xl md:text-5xl text-mocha border-b-2 border-mocha pb-3 inline-block">
                 Missão
               </h3>
               <p className="text-base leading-relaxed text-foreground">
@@ -38,7 +31,7 @@ const EssenceSection = () => {
             </div>
 
             <div className="space-y-4">
-              <h3 className="font-heading text-2xl text-mocha border-b border-mocha/30 pb-2 inline-block">
+              <h3 className="font-heading text-4xl md:text-5xl text-mocha border-b-2 border-mocha pb-3 inline-block">
                 Visão
               </h3>
               <p className="text-base leading-relaxed text-foreground">
