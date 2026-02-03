@@ -25,8 +25,8 @@ const EssenceSection = () => {
               <p className="text-base leading-relaxed text-foreground">
                 Promover a saúde emocional e psicológica por meio de um
                 atendimento humano, acolhedor e individualizado, auxiliando cada
-                pessoa a lidar com seus desafios, desenvolver-se pessoalmente e
-                alcançar uma vida mais equilibrada.
+                pessoa a lidar com seus desafios, a desenvolver-se pessoalmente
+                e a alcançar uma vida mais equilibrada.
               </p>
             </div>
 
