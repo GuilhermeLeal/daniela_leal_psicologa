@@ -30,9 +30,7 @@ const AboutSection = () => {
             </p>
 
             <div className="flex gap-6">
-              <div className="flex items-center justify-center w-14 h-14 rounded-full border-2 border-mocha text-mocha">
-                <Smile className="w-6 h-6" />
-              </div>
+              
               
             </div>
           </div>
