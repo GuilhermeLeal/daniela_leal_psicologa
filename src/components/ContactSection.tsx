@@ -46,7 +46,7 @@ const ContactSection = () => {
               <div className="flex items-start gap-4 text-cream/80">
                 <MapPin className="w-5 h-5 mt-0.5" />
                 <span className="text-sm">
-                  Rua Professora Anunciada da Rocha Melo, N° 214
+                  Rua Professora Anunciada da Rocha Melo, N° 214 <br />
                   Empresarial Melo Gouveia
                 </span>
               </div>
