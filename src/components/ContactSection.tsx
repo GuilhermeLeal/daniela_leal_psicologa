@@ -46,7 +46,8 @@ const ContactSection = () => {
               <div className="flex items-start gap-4 text-cream/80">
                 <MapPin className="w-5 h-5 mt-0.5" />
                 <span className="text-sm">
-                  Av. Governador Agamenon Magalhães, N° 2615
+                  Rua Professora Anunciada da Rocha Melo, N° 214
+                  Empresarial Melo Gouveia
                 </span>
               </div>
             </div>
